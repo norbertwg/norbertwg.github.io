@@ -1,0 +1,19 @@
+title:
+  en: QuickImageComment
+  de: QuickImageComment
+
+languages:
+  en:
+    value: English
+    slug: en
+  de:
+    value: German
+    slug: de
+
+back:
+  en: Back to the Top
+  de: Zurück zum Anfang
+
+top:
+  en: Top
+  de: Anfang
