@@ -2,15 +2,12 @@
 title: 'QuickImageComment'
 description: 'QIC ... A basic site to experiment with Jekyll and multilingual sites.'
 
-baseurl: '/' # the subpath of your site, e.g. /blog
+# baseurl: '/' # the subpath of your site, e.g. /blog
 # absoluteurl: 'https://ranbureand.github.io/multilingual-experiment'
-absoluteurl: 'localhost:4000'
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 
-version: '2021-01-01'
-
 default_language: 'en'
-fallback_page: 'stories'
+fallback_page: 'overview'
 
 timezone: Europe/Rome
 encoding: utf-8

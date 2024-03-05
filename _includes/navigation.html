@@ -1,4 +1,5 @@
         <ul>
+          <h2>{{ snippets.content[page.language] }}</h2>
           {%- assign navigation_pages = site.pages
             | where: 'layout', 'page'
             | where: 'language', page.language

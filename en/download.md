@@ -1,17 +1,17 @@
 ---
 layout: page
 
-title: Introduction
-description: Introduction.
+title: Download
+description: Download.
 
 language: en
-language_reference: introduction
+language_reference: download
 
 published: true
 order: 4
 ---
 
-# QuickImageComment
+# Download
 
 ## header 2
 
