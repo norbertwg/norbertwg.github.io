@@ -22,6 +22,9 @@ kramdown:
   entity_output: as_char
   toc_levels: 2..3
 
+plugins:
+  - jekyll-seo-tag
+
 # Defaults
 defaults:
 -
@@ -29,12 +32,12 @@ defaults:
     path: '_posts/en'
     type: 'posts'
   values:
-    permalink: 'en/story/:title'
+    permalink: 'en/news/:title'
     language: en
 -
   scope:
     path: '_posts/de'
     type: 'posts'
   values:
-    permalink: 'de/storia/:title'
+    permalink: 'de/nachrichten/:title'
     language: de

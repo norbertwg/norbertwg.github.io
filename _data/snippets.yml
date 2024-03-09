@@ -2,6 +2,10 @@ title:
   en: QuickImageComment
   de: QuickImageComment
 
+subtitle:
+  en: quick change of user comment and artists in digital images, display and change of meta data, ...
+  de: schnelles Ändern von Kommentar und Autor in Bildern, Anzeigen und Ändern von Metadaten, ...
+
 languages:
   en:
     value: English
@@ -21,3 +25,11 @@ top:
 content:
   en: Content
   de: Inhalt
+
+latestnews:
+  en: Latest news
+  de: Letzte Meldungen
+
+sitecreated:
+  en: Site created using
+  de: Website erstellt unter Verwendung von
