@@ -13,9 +13,8 @@ order: 8
 
 # For developers
 
-## header 2
+The source code from version 4.40 onward is available on GitHub:
 
-### header 3
+[https://github.com/QuickImageComment/QuickImageComment](https://github.com/QuickImageComment/QuickImageComment)
 
-text.
-text.
+Notes about the project can be found there in several ReadMe files.

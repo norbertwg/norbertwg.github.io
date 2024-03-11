@@ -11,7 +11,7 @@ languages:
     value: English
     slug: en
   de:
-    value: German
+    value: Deutsch
     slug: de
 
 back:
