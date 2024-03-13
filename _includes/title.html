@@ -13,5 +13,9 @@
   {{ site.title }}
 </h1>
 <h2>
+  {% if page.layout == "document" %}
+  {{ page.title }}
+  {% else %}
   {{ snippets.subtitle[page.language] }}
+  {% endif %}
 </h2>

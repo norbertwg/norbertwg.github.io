@@ -13,9 +13,8 @@ order: 5
 
 # Lizenz
 
-## header 2
+QuickImageComment ist freie Software. Sie können es unter den Bedingungen der GNU General Public License (wie von der Free Software Foundation veröffentlicht) verwenden, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
 
-### header 3
+Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK.
 
-text.
-text.
+Details finden Sie in [Kapitel "Lizenzen" des Benutzerhandbuches](QuickImageComment.html#_Lizenzen).
