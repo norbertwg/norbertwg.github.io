@@ -5,7 +5,7 @@ title: Lizenz
 description: Lizenz.
 
 language: de
-language_reference: licence
+language_reference: license
 
 published: true
 order: 5
@@ -17,4 +17,4 @@ QuickImageComment ist freie Software. Sie können es unter den Bedingungen der G
 
 Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK.
 
-Details finden Sie in [Kapitel "Lizenzen" des Benutzerhandbuches](QuickImageComment.html#_Lizenzen).
+Details finden Sie in [Kapitel "Lizenzen" des Benutzerhandbuches](Benutzeranleitung.html#_Lizenzen).
