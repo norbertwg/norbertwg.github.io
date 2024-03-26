@@ -13,6 +13,15 @@ order: 4
 
 # Download
 
+Die Variante für Windows XP mit .Net 4.0 Framework hat folgende Einschränkungen:
+
+* Sie enthält kein LibRaw für die Anzeige von RAW-Bildern, daher wird für die Anzeige von RAW-Bildern ein Codec des Herstellers oder die Microsoft Raw Image Extension benötigt.
+* Google Maps oder Bing Maps können nicht für die Kartenanzeige im Programm selbst verwendet werden, sondern nur über "Karte in Standard Browser".
+* Die Verwendung von AppCenter.ms, die das Senden von Fehlerberichten und anonymen Nutzungsdaten ermöglicht, wird nicht unterstützt.
+
+Hinweis: Die Verwendung von AppCenter.ms muss in der Variante für .Net 4.6.1 explizit aktiviert werden, so dass die Verwendung der Variante für Windows XP/.Net 4.0 nicht notwendig ist, um das Senden von Daten über AppCenter.ms zu vermeiden.
+
+
 {% assign version = 4.57 %}
 {% assign release =  "Version-4.57-with-exiv2Cdecl-0.28.1.0" %}
 ### Version {{ version }}

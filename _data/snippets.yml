@@ -26,6 +26,10 @@ content:
   en: Content
   de: Inhalt
 
+homepage:
+  en: en/overview.html
+  de: de/uebersicht.html
+  
 latestnews:
   en: Latest news
   de: Letzte Meldungen

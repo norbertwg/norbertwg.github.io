@@ -13,6 +13,15 @@ order: 4
 
 # Download
 
+The variant for Windows XP with .Net 4.0 framework has following limitations:
+
+* It does not include LibRaw for display of RAW images, so for display of RAW images a manufacturer's codec or the Microsoft Raw Image Extension is needed.
+* Google Maps or Bing Maps cannot be used for the map display in the program itself, only via "Map in Standard Browser".
+* It does not support using AppCenter.ms which allows sending error reports and anonymous usage data.
+
+Note: Using AppCenter.ms has to be enabled explicitely in the variant for .Net 4.6.1, so using the variant for Windows XP/.Net 4.0 is not necessary to avoid sending data via AppCenter.ms.
+
+
 {% assign version = 4.57 %}
 {% assign release =  "Version-4.57-with-exiv2Cdecl-0.28.1.0" %}
 ### Version {{ version }}
@@ -20,7 +29,7 @@ order: 4
 QuickImageCommentX64-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageComment-{{ version }}.zip)<br>
-[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
+[Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
@@ -31,7 +40,7 @@ QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 QuickImageCommentX64-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageComment-{{ version }}.zip)<br>
-[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
+[Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
@@ -42,7 +51,7 @@ QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 QuickImageCommentX64-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageComment-{{ version }}.zip)<br>
-[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
+[Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
@@ -53,6 +62,6 @@ QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 QuickImageCommentX64-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageComment-{{ version }}.zip)<br>
-[Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
+[Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QuickImageCommentNet4WinXp-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)

@@ -2,7 +2,7 @@
           {%- for language in snippets.languages %}
 						{%- if page.language != language[1].slug %}
 
-							{%- if page.layout == 'page' %}
+							{%- if page.layout == 'page' or page.layout == 'document' %}
 								{%- assign navigation_pages = site.pages
 									| where: 'language_reference', page.language_reference
 									| where: 'language', language[1].slug %}

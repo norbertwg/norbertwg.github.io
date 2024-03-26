@@ -5,9 +5,6 @@
 
 {% seo %}
 <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-<script src="https://code.jquery.com/jquery-3.3.0.min.js"
-    integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
@@ -19,19 +16,52 @@
 
 <body id="{{ snippets.top[page.language] | slugify: 'latin' }}">
 
+    <style>
+        .docnav {
+            text-align:left;
+
+            a:link,
+            span.MsoHyperlink {
+                color: black;
+                text-decoration: none;
+
+                &:hover {
+                    color: grey;
+                }
+            }
+
+            a:visited,
+            span.MsoHyperlinkFollowed {
+                color: black;
+                text-decoration: none;
+
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+    </style>
+
     <header>
         {% include title.html %}
+        <navHead>
+            <ul class="docnav" style="text-align: right;">
+                {% include language-switch.html %}
+                <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
+                    snippets.back[page.language]
+                    }}</a>
+            </ul>
+            <hr width="99%" size="2" color="grey" noshade>
 
+        </navHead>
         <nav>
-            {% include language-switch.html %}
+            <ul class="docnav" style="text-align: left;">
+                {% include_relative {{ page.name | remove : '.html' }}_toc.htm %}
+            </ul>
         </nav>
-
     </header>
 
     <div class="wrapper">
-        <nav>
-            <ul></ul>
-        </nav>
         <section>
             {{ content }}
 
