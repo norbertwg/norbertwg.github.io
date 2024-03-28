@@ -16,22 +16,29 @@
 
 <body id="{{ snippets.top[page.language] | slugify: 'latin' }}">
 
-  {% include header.html %}
+  <header>
+    {% include title.html %}
+  </header>
 
   <div class="wrapper">
     <navHead>
-      <ul class="docnav">
-        {% include language-switch.html %}
-      </ul>
-      <hr width="99%" size="2" color="grey" noshade>
+      <!-- set class and style right aligned to override settings contained in document to display -->
+      <ul class="navigation" style="text-align: right;">
 
+        {% include language-switch.html %}
+
+        {% if page.layout == "document" %}
+        <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
+          snippets.back[page.language]
+          }}</a>
+        {% endif %}
+
+      </ul>
+      <hr width="100%" size="2" color="grey" noshade>
     </navHead>
-    <nav>
-      <ul></ul>
-    </nav>
+
     <section>
       {{ content }}
-
     </section>
   </div>
 

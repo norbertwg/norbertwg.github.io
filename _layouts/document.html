@@ -1,75 +1,11 @@
-<!DOCTYPE html>
-<html lang="{{ page.language }}">
+---
+layout: base
+---
 
-{%- assign snippets = site.data.snippets %}
+<nav>
+    <ul class="navigation" style="text-align: left;">
+        {% include_relative {{ page.name | remove : '.html' }}_toc.htm %}
+    </ul>
+</nav>
 
-{% seo %}
-<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-<!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
-    <![endif]-->
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-{% include head.html %}
-
-<body id="{{ snippets.top[page.language] | slugify: 'latin' }}">
-
-    <style>
-        .docnav {
-            text-align:left;
-
-            a:link,
-            span.MsoHyperlink {
-                color: black;
-                text-decoration: none;
-
-                &:hover {
-                    color: grey;
-                }
-            }
-
-            a:visited,
-            span.MsoHyperlinkFollowed {
-                color: black;
-                text-decoration: none;
-
-                &:hover {
-                    color: grey;
-                }
-            }
-        }
-    </style>
-
-    <header>
-        {% include title.html %}
-        <navHead>
-            <ul class="docnav" style="text-align: right;">
-                {% include language-switch.html %}
-                <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
-                    snippets.back[page.language]
-                    }}</a>
-            </ul>
-            <hr width="99%" size="2" color="grey" noshade>
-
-        </navHead>
-        <nav>
-            <ul class="docnav" style="text-align: left;">
-                {% include_relative {{ page.name | remove : '.html' }}_toc.htm %}
-            </ul>
-        </nav>
-    </header>
-
-    <div class="wrapper">
-        <section>
-            {{ content }}
-
-        </section>
-    </div>
-
-    {% include footer.html %}
-
-</body>
-
-</html>
+{{ content }}
