@@ -18,9 +18,10 @@
 
   <header>
     {% include title.html %}
+    <span id="logo"></span>
   </header>
 
-  <div class="wrapper">
+  <div>
     <navHead>
       <!-- set class and style right aligned to override settings contained in document to display -->
       <ul class="navigation" style="text-align: right;">
@@ -31,12 +32,10 @@
         <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
           snippets.back[page.language]
           }}</a>
-        {% else %}
-        <br>
         {% endif %}
-
-        <hr width="100%" size="2" color="grey" noshade>
       </ul>
+      <hr width="100%" size="2" color="grey" noshade>
+
     </navHead>
 
     <section>

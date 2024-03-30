@@ -7,9 +7,11 @@ by Matt Graham
 @import "fonts";
 @import "rouge-base16-dark";
 
-$leftCol-width: 350px;
-$leftCol-left: 0%;
-$leftCol-margin-left: 0px;
+:root {
+  --leftCol-width: 25%;
+  --leftCol-left: 0px;
+  --leftCol-margin-left: 0px;
+}
 
 body {
   font: 14px/22px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -194,14 +196,14 @@ dt {
 }
 
 header {
-  padding: 25px 20px 40px 20px;
+  padding: 25px 20px 20px 20px;
   margin: 0;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
-  background: #000 url('../images/QIC-48x48.png') top left no-repeat;
+  background: #000;
   text-align: center;
   z-index: 99;
   -webkit-font-smoothing: antialiased;
@@ -220,7 +222,7 @@ header {
 
   h2 {
     color: beige;
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px 0 0 0;
   }
 
@@ -235,6 +237,16 @@ header {
     color: beige;
     font-size: 18px;
     margin: 0px;
+  }
+
+  #logo {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    right: 53px;
+    top: 0px;
+    display: block;
+    background: url(../images/QIC-48x48.png);
   }
 }
 
@@ -314,28 +326,18 @@ header {
       }
     }
   }
-
-  #logo {
-    position: absolute;
-    height: 36px;
-    width: 36px;
-    right: 7px;
-    top: 7px;
-    display: block;
-    background: url(../images/octocat-logo.svg);
-  }
 }
 
 section {
-  width: 800px;
-  left: $leftCol-width + 15px;
+  width: 60%;
+  left: var(--leftCol-width);
   padding: 30px 30px 50px 30px;
   margin: 20px 0;
-  margin-top: 150px;
+  margin-top: 120px;
   position: fixed;
   top: 0px;
   overflow: auto;
-  max-height: calc(100% - 235px);
+  max-height: calc(100% - 205px);
   background: whitesmoke;
   border-radius: 3px;
   border: 1px solid #cbcbcb;
@@ -351,7 +353,7 @@ small {
   a {
     font: 14px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
-    padding: 0px 0px 0px 0px;
+    padding-right:15px;
   }
 
   a:link,
@@ -377,13 +379,14 @@ small {
 
 
 navHead {
-  width: $leftCol-width;
+  width: var(--leftCol-width);
   position: fixed;
-  top: 150px;
-  left: $leftCol-left;
-  margin-left: $leftCol-margin-left;
+  top: 130px;
+  left: var(--leftCol-left);
+  margin-left: var(--leftCol-margin-left);
+  margin-right: 15px;
   text-align: right;
-  padding: 0px 15px 0px 0px;
+  padding-right:15px;
 
   ul {
     list-style: none;
@@ -393,11 +396,7 @@ navHead {
     text-align: right;
 
     li {
-      padding: 5px 0px;
       line-height: 14px;
-      // padding-right:17px;
-      // position:relative;
-      // right:-12px;
 
       &.tag-h1 {
         font-size: 1.2em;
@@ -433,15 +432,15 @@ navHead {
 }
 
 nav {
-  width: $leftCol-width;
+  width: var(--leftCol-width);
   position: fixed;
-  top: 210px;
-  left: $leftCol-left;
-  margin-left: $leftCol-margin-left;
+  top: 185px;
+  left: var(--leftCol-left);
+  margin-left: var(--leftCol-margin-left);
   text-align: right;
   overflow: auto;
-  max-height: calc(100% - 320px);
-  padding: 0px 15px 0px 0px;
+  max-height: calc(100% - 300px);
+  padding: 0px -15px 0px 0px;
 
   ul {
     list-style: none;
@@ -452,9 +451,6 @@ nav {
     li {
       padding: 5px 0px;
       line-height: 14px;
-      // padding-right:17px;
-      // position:relative;
-      // right:-12px;
 
       &.tag-h1 {
         font-size: 1.2em;
@@ -500,7 +496,7 @@ nav {
   p {
     font: 14px/22px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
-    padding: 0px 0 0px 0px;
+    padding-right:15px;
   }
 
   a:link,
@@ -526,10 +522,10 @@ nav {
 
 
 footer {
-  width: $leftCol-width;
+  width: var(--leftCol-width);
   position: fixed;
-  left: $leftCol-left;
-  margin-left: $leftCol-margin-left;
+  left: var(leftCol-left);
+  margin-left: var(--leftCol-margin-left);
   bottom: 10px;
   text-align: right;
   line-height: 16px;
@@ -685,28 +681,12 @@ screen and (max-width: 480px) {
 @media print,
 screen and (max-height: 680px) {
 
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left: auto;
-    bottom: auto;
-    width: auto;
-  }
-}
-
-@media print,
-screen and (max-height: 480px) {
   nav {
+    max-height: calc(100% - 190px);
+  }
+  
+  footer {
     display: none;
   }
-
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left: auto;
-    bottom: auto;
-    width: auto;
-  }
 }
+
