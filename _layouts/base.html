@@ -29,9 +29,13 @@
         {% include language-switch.html %}
 
         {% if page.layout == "document" %}
-        <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
-          snippets.back[page.language]
-          }}</a>
+        <li>
+          <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
+            snippets.back[page.language]
+            }}</a>
+        </li>
+        {% else %}
+        <br>
         {% endif %}
       </ul>
       <hr width="100%" size="2" color="grey" noshade>
