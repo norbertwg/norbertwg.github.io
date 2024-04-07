@@ -4,8 +4,11 @@ layout: base
 
 <nav class="navigation">
 
+    {% if page.layout == "screenhot" %}
+    {% include navigation-screenshot.html %}
+    {% else %}
     {% include navigation.html %}
-
+    {% endif %}
 </nav>
 
 {{ content }}

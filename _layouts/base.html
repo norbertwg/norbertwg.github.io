@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="{{ page.language }}">
 
 {%- assign snippets = site.data.snippets %}
 
@@ -28,7 +27,7 @@
 
         {% include language-switch.html %}
 
-        {% if page.layout == "document" %}
+        {% if page.layout == "document" or page.layout == "screenshot" %}
         <li>
           <a href="{{ site.baseurl }}/{{ snippets.homepage[page.language] }}">{{
             snippets.back[page.language]

@@ -13,9 +13,10 @@ order: 3
 
 # Screenshots
 
-## header 2
+Hauptmaske in Standardansicht:
 
-### header 3
+<img src="https://raw.githubusercontent.com/QuickImageComment/QuickImageComment/main/UserManual/images/English-prg/FormQuickImageComment-00.png">
 
-text.
-text.
+### Weitere Screenshots:
+
+{% include navigation-screenshot.html %}

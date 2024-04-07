@@ -13,9 +13,10 @@ order: 3
 
 # Screenshots
 
-## header 2
+Main mask in standard view:
 
-### header 3
+<img src="https://raw.githubusercontent.com/QuickImageComment/QuickImageComment/main/UserManual/images/English-prg/FormQuickImageComment-00.png">
 
-text.
-text.
+### Further screenshots:
+
+{% include navigation-screenshot.html %}
