@@ -22,14 +22,14 @@ It is useful to inform quickimagecomment@gmail.com when you start a translation.
 
 Support for additional languages is divided into three areas, which are described below. Most important would be the translation of the mask texts and messages.
 
-## Translations for the mask texts and messages
+### Translations for the mask texts and messages
 
 The following Excel file is used for these translations:<br>
 [Translation_QIC.xlsm](https://github.com/QuickImageComment/QuickImageComment/blob/main/Translation/Translation_QIC.xlsm)
 
 The file contains about 700 entries with together about 3000 words. This is a lot of translations, but the texts should be quite easy to translate. The file contains the texts in German and English. There is space for a third language, for other languages space can be created if needed. Detailed instructions are in the Excel file in the sheet "Anleitung-Instructions".
 
-## Translations for tag names and related descriptions
+### Translations for tag names and related descriptions
 
 For these translations, a separate Excel file is used for each language:
 
@@ -46,7 +46,7 @@ While the mask texts and messages should be translated completely, there is no c
 
 Detailed instructions can be found in the Excel file in the sheet "Anleitung-Instructions".
 
-## Translation of the user manual
+### Translation of the user manual
 
 The translation of the user manual is probably the most work. It contains about 80 pages. In addition, there are several pages with license conditions, but these do not have to be translated because the English version is legally binding. For the GPL, the user manual contains a German translation that is not legally binding. For other languages you can - if you like - surely find a translation on the internet.
 

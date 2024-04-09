@@ -90,4 +90,5 @@ As an affected person, you have the following rights:
 - You have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning you or similarly significantly affects you (Art. 22 GDPR),
 - You have the right to lodge a complaint with the competent supervisory authority in the event of a suspected breach of data protection law (Art. 77 DSGVO). The competent supervisory authority is the one at your usual place of residence, place of work or the place of the suspected infringement.
 
+---
 This statement is based on the following German source: [Muster-Datenschutzerklärung von anwalt.de](https://www.anwalt.de/vorlage/muster-datenschutzerklaerung.php)

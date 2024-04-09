@@ -15,7 +15,7 @@ by Matt Graham
 
 body {
   font: 14px/22px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #2b2b2b;
+  color: black;
   font-weight: 300;
   margin: 0px;
   padding: 0px 0 20px 0px;
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: black;
   margin: 0 0 10px;
 }
 
@@ -53,14 +53,14 @@ h1 {
 
 h2 {
   font-size: 24px;
-  color: #393939;
+  color: black;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  color: #666666;
+  color: black;
 }
 
 h3 {
@@ -114,15 +114,16 @@ section img {
   object-fit:contain;
 }
 
+// applies in layout screenshot
+screenshot img {
+  max-width: 100%;
+}
+
 code {
   font-family: Lucida Console, 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Terminal;
-  font-size: 13px;
-  color: #efefef;
-  text-shadow: 0px 1px 0px #000;
+  font-size: 14px;
+  color: dimgrey;
   margin: 0 4px;
-  padding: 2px 6px;
-  background: #333;
-  border-radius: 2px;
 }
 
 table {
@@ -310,7 +311,7 @@ nav {
   margin-left: var(--leftCol-margin-left);
   text-align: right;
   overflow: auto;
-  max-height: calc(100% - 295px);
+  max-height: calc(100% - 290px);
   padding: 0px -15px 0px -15px;
 
   ul {
@@ -388,7 +389,7 @@ nav {
 .footer {
 
   p {
-    font: 14px/22px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 13px/16px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     padding-right: 15px;
     white-space: nowrap;

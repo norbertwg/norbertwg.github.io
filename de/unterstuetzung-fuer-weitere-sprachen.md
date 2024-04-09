@@ -22,14 +22,14 @@ Es ist sinnvoll, quickimagecomment@gmail.com zu informieren, wenn man mit einer 
 
 Die Unterstützung für weitere Sprache teilt sich in drei Bereiche auf, die nachfolgend beschrieben werden. Am wichtigsten wäre die Übersetzung der Maskentexte und Meldungen.
 
-## Übersetzungen für die Maskentexte und Meldungen
+### Übersetzungen für die Maskentexte und Meldungen
 
 Für diese Übersetzungen wird folgende Excel-Datei verwendet:<br>
 [Translation_QIC.xlsm](https://github.com/QuickImageComment/QuickImageComment/blob/main/Translation/Translation_QIC.xlsm)
 
 Die Datei enthält etwa 700 Einträge mit zusammen rund 3000 Worten. Das sind viele Übersetzungen, aber die Texte sollten sich recht einfach übersetzen lassen. In der Datei sind die Texte in Deutsch und Englisch enthalten. Für eine dritte Sprache ist Platz vorgesehen, für weitere Sprachen kann bei Bedarf Platz geschaffen werden. Detaillierte Hinweise sind in der Excel-Datei im Blatt "Anleitung-Instructions".
 
-## Übersetzungen für Tag-Namen und zugehörigen Beschreibungen
+### Übersetzungen für Tag-Namen und zugehörigen Beschreibungen
 
 Für diese Übersetzungen wird je Sprache eine eigene Excel-Datei verwendet:<br>
 [Translation_Tags_Deutsch.xlsm](https://github.com/QuickImageComment/QuickImageComment/blob/main/Translation/Translation_Tags_Deutsch.xlsm)<br>
@@ -45,7 +45,7 @@ Während die Maskentexte und Meldungen vollständig übersetzt werden sollten, b
 
 Detaillierte Hinweise sind in der Excel-Datei im Blatt "Anleitung-Instructions".
 
-## Übersetzung der Benutzeranleitung
+### Übersetzung der Benutzeranleitung
 
 Am meisten Arbeit dürfte die Übersetzung der Benutzeranleitung machen. Sie umfasst rund 80 Seiten. Dazu kommen zwar noch etliche Seiten mit Lizenzbedingungen, die aber nicht übersetzt werden müssen, weil die englische Variante juristisch bindend ist. Für die GPL ist in der Benutzeranleitung eine nicht rechtskräftige deutsche Übersetzung enthalten. Für andere Sprache ist - wenn man möchte - sicherlich auch eine Übersetzung im Internet zu finden.
 
