@@ -1,5 +1,5 @@
-          {%- for language in snippets.languages %}
-						{%- if page.language != language[1].slug %}
+       <li>
+		  {%- for language in snippets.languages %}
 
 							{%- if page.layout == 'page' or page.layout == 'document' or page.layout == 'screenshot' %}
 								{%- assign navigation_pages = site.pages
@@ -44,9 +44,12 @@
 								{%- endfor %}
 
 							{%- endif %}
-							<li{%- if language[1].slug == page.language %} class="current"{%- endif %}>
+
+							{%- if page.language == language[1].slug %}
+							<a style="color: grey">{{ language[1].value }}</a>
+							{% else %}
 								<a href="{{ url }}">{{ language[1].value }}</a>
-							</li>
-            {%- endif %}
+							{% endif %}
 
           {%- endfor %}
+		</li>   
