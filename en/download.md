@@ -34,7 +34,6 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
@@ -46,7 +45,6 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
@@ -58,7 +56,6 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)
 
@@ -70,6 +67,5 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 or higher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit for Windows XP with .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [User Manual](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_User_Manual-{{ version }}.pdf)

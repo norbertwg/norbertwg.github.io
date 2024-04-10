@@ -15,7 +15,9 @@ order: 3
 
 Hauptmaske in Standardansicht:
 
+<screenshot>
 <img src="https://raw.githubusercontent.com/QuickImageComment/QuickImageComment/main/UserManual/images/English-prg/FormQuickImageComment-00.png">
+</screenshot>
 
 ### Weitere Screenshots:
 

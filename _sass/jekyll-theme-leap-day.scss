@@ -246,6 +246,47 @@ small {
   }
 }
 
+.navpost {
+  ul {
+    margin-left: 0px;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    // to indicate current selection
+    .current {
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+
+  a {
+    font: 14px Verdana, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    word-wrap: normal;
+    text-align: left;
+  }
+
+  a:link,
+  span.MsoHyperlink {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: grey;
+    }
+  }
+
+  a:visited,
+  span.MsoHyperlinkFollowed {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: grey;
+    }
+  }
+}
 
 navHead {
   width: var(--leftCol-width);
@@ -295,11 +336,6 @@ navHead {
         color: grey;
       }
     }
-
-    // .active {
-    //   border-right:solid 4px #39C;
-    //   padding-right:13px;
-    // }
   }
 }
 

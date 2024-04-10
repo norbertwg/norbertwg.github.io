@@ -34,7 +34,6 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
@@ -46,7 +45,6 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
@@ -58,7 +56,6 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_Benutzeranleitung-{{ version }}.pdf)
 
@@ -70,6 +67,5 @@ QIC-64Bit-{{ version }}.zip)<br>
 [Program 32-Bit - .Net 4.6.1 oder höher](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
 QIC-32Bit-{{ version }}.zip)<br>
 [Program 32-Bit für Windows XP mit .Net 4.0](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/
-
 QIC-Net4WinXP-{{ version }}.zip)<br>
 [Benutzeranleitung](https://github.com/QuickImageComment/QuickImageComment/releases/download/{{ release }}/QIC_Benutzeranleitung-{{ version }}.pdf)
