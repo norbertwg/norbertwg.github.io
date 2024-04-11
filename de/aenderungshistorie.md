@@ -13,6 +13,14 @@ order: 6
 
 # Änderungshistorie
 
+## Version 4.58 veröffentlicht am 17.03.2024
+
+Erweiterungen und Verbesserungen:
+
+* Nur für die .Net 4.6.1-Varianten: Neue Version 0.28.2 der Bibliothek exiv2 integriert: Objektiverkennung erweitert und kleinere Fehler wurden behoben.
+
+Hinweis: Wegen Geschäftsaufgabe des Hosting-Providers wird die bisherige Kontakt-E-Mail-Adresse Anfang Mai deaktiviert. Bitte ab sofort folgende Adresse verwenden: [quickimagecomment@gmail.com](mailto:quickimagecomment@gmail.com). Links im Programm und in der Hilfe sind entsprechend angepasst.
+
 ## Version 4.57 veröffentlicht am 29.12.2023
 
 Erweiterungen und Verbesserungen:

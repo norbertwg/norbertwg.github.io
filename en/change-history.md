@@ -13,6 +13,14 @@ order: 6
 
 # Change History
 
+## Version 4.58 released on 2024-03-17
+
+Enhancements and improvements:
+
+* Only for the .Net 4.6.1 variants: New version 0.28.2 of the exiv2 library integrated: lens recognition extended and minor bugs fixed.
+
+Note: Due to the hosting provider going out of business, the previous contact e-mail address will be deactivated at the beginning of May. Please use the following address from now on: [quickimagecomment@gmail.com](mailto:quickimagecomment@gmail.com). Links in the program and in the help have been adjusted accordingly.
+
 ## Version 4.57 released on 2023-12-29
 
 Enhancements and improvements:

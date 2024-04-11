@@ -3,9 +3,11 @@
             | where: 'language', page.language
             | where: 'published', true
             %}
-          {%- for post in posts %}
-            <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
+          {%- for ii in (0..2) %}
+            {% if posts[ii] %}
+              <li>
+              <a href="{{ posts[ii].url | prepend: site.baseurl }}">{{ posts[ii].title }}</a>
+              </li>
+            {% endif %}
           {%- endfor %}
         </ul>

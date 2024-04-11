@@ -37,10 +37,7 @@ GNU General Public License (GPL)
 [www.helpndoc.com/](//www.helpndoc.com/)<br>
 Help authoring tool: Word, PDF and HTML based documentation generation
 
-[www.libexpat.org](//www.libexpat.org)<br>
-expat: The Expat XML Parser
-
-[www.small-icons.com/](//www.small-icons.com/)<br>
+[www.small-icons.com/](http://www.small-icons.com/)<br>
 small icons: Download and Buy Menu Icons and Toolbar Icons
 
 [http://leafletjs.com/](http://leafletjs.com/)<br>
@@ -60,6 +57,9 @@ __GitHub repository for QuickImageComment__<br>
 This repository contains source code starting with version 4.40.<br>
 Issues for errors and feature requests can be created and tracked.<br>
 The section Discussion allows to ask questions about this repository or to get help.  
+
+[https://github.com/libexpat/libexpat](https://github.com/libexpat/libexpat)<br>
+expat: The Expat XML Parser
 
 [https://github.com/LibRaw/LibRaw](https://github.com/LibRaw/LibRaw)<br>
 Library for reading and processing of RAW digicam images
