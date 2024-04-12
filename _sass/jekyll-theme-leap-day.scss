@@ -465,23 +465,23 @@ footer {
 }
 
 @media print,
-screen and (min-width: 1200px) {
+screen and (min-width: 1280px) {
 
   navHead {
-    width: 300px;
+    width: 320px;
   }
 
   nav {
-    width: 300px;
+    width: 320px;
   }
 
   footer {
-    width: 300px;
+    width: 320px;
   }
 
   section {
-    width: 845px;
-    left: 300px;
+    width: 905px;
+    left: 320px;
   }
 }
 
